@@ -1,9 +1,9 @@
-#Juego de memoria sobre el piano
-
 ---
 layout: default
 title: Lectura a Primera Vista
 ---
+
+#Juego de memoria sobre el piano
 
 ## Contenido de lectura a primera vista
 
