@@ -1,12 +1,11 @@
-#Memoria
-
-
 ---
 layout: default
-title: Lectura a Primera Vista
+title: Memoria
 ---
 
-## Contenido de lectura a primera vista
+# Memoria
+
+## Contenido de memoria
 
 Aquí van tus ejercicios...
 
