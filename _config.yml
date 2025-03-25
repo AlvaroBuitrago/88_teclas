@@ -4,3 +4,8 @@ theme: jekyll-theme-cayman
 # O prueba con:
 # theme: jekyll-theme-modernist
 # theme: jekyll-theme-tactile
+
+collections:
+  activities:
+    output: true
+    permalink: /:path/
