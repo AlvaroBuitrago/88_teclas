@@ -3,7 +3,7 @@ layout: default
 title: Inicio
 ---
 
-## Directorio de Actividades
+## Actividades
 
 <div class="activity-grid">
     <a href="/memoria" class="activity-card">
