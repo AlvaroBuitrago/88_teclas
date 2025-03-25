@@ -1,11 +1,11 @@
-#Trivial
-
 ---
 layout: default
-title: Lectura a Primera Vista
+title: Trivial
 ---
 
-## Contenido de lectura a primera vista
+# Trivial
+
+## Preguntas de trivial
 
 Aquí van tus ejercicios...
 
