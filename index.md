@@ -1,33 +1,20 @@
 ---
 layout: default
-title: Inicio
+title: Actividades Musicales
+subtitle: 88 Teclas de Aprendizaje
 ---
 
-<h2 style="text-align: center;">Actividades 88 teclas</h2>
+<div class="header-content">
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.subtitle }}</p>
+</div>
 
 <div class="activity-grid">
-    <a href="{{ '/memoria' | relative_url }}" class="activity-card">
-        <h2>Memoria</h2>
-        <p>Ejercicios de memoria musical</p>
+    {% for activity in site.activities %}
+    <a href="{{ activity.url | relative_url }}" class="activity-card">
+        <div class="card-icon">🎹</div>
+        <h2>{{ activity.title }}</h2>
+        <p>{{ activity.description }}</p>
     </a>
-    
-    <a href="{{ '/lectura' | relative_url }}" class="activity-card">
-        <h2>Lectura a primera vista</h2>
-        <p>Practica la lectura de partituras</p>
-    </a>
-    
-    <a href="{{ '/trivial' | relative_url }}" class="activity-card">
-        <h2>Trivial sobre el piano</h2>
-        <p>Pon a prueba tus conocimientos</p>
-    </a>
-    
-    <a href="{{ '/juego-memoria' | relative_url }}" class="activity-card">
-        <h2>Juego de memoria</h2>
-        <p>Encuentra las parejas musicales</p>
-    </a>
-    
-    <a href="{{ '/ordenar' | relative_url }}" class="activity-card">
-        <h2>Ordenar melodías</h2>
-        <p>Reconstruye fragmentos musicales</p>
-    </a>
+    {% endfor %}
 </div>
