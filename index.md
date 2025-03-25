@@ -8,6 +8,12 @@ subtitle: 88 Teclas de Aprendizaje
     <h1>{{ page.title }}</h1>
     <p class="subtitle">{{ page.subtitle }}</p>
 </div>
+<div class="header-content">
+<a href="https://sites.google.com/view/88-teclas/" class="back-button">
+  ← Volver al sitio principal
+</a>
+
+</div>
 
 <div class="activity-grid">
     <a href="{{ '/memoria' | relative_url }}" class="activity-card">
