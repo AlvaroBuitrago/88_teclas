@@ -3,7 +3,7 @@ layout: default
 title: Inicio
 ---
 
-## Actividades 88 teclas
+<h2 style="text-align: center;">Actividades 88 teclas</h2>
 
 <div class="activity-grid">
     <a href="{{ '/memoria' | relative_url }}" class="activity-card">
