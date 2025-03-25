@@ -3,7 +3,7 @@ layout: default
 title: Inicio
 ---
 
-## Actividades Musicales
+## Actividades 88 teclas
 
 <div class="activity-grid">
     <a href="{{ '/memoria' | relative_url }}" class="activity-card">
