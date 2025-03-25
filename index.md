@@ -10,11 +10,33 @@ subtitle: 88 Teclas de Aprendizaje
 </div>
 
 <div class="activity-grid">
-    {% for activity in site.activities %}
-    <a href="{{ activity.url | relative_url }}" class="activity-card">
-        <div class="card-icon">🎹</div>
-        <h2>{{ activity.title }}</h2>
-        <p>{{ activity.description }}</p>
+    <a href="{{ '/memoria' | relative_url }}" class="activity-card">
+        <div class="card-icon">🧠</div>
+        <h2>Memoria</h2>
+        <p>Ejercicios de memoria musical</p>
     </a>
-    {% endfor %}
+    
+    <a href="{{ '/lectura' | relative_url }}" class="activity-card">
+        <div class="card-icon">👀</div>
+        <h2>Lectura a primera vista</h2>
+        <p>Practica la lectura de partituras</p>
+    </a>
+    
+    <a href="{{ '/trivial' | relative_url }}" class="activity-card">
+        <div class="card-icon">❓</div>
+        <h2>Trivial sobre el piano</h2>
+        <p>Pon a prueba tus conocimientos</p>
+    </a>
+    
+    <a href="{{ '/juego-memoria' | relative_url }}" class="activity-card">
+        <div class="card-icon">🎵</div>
+        <h2>Juego de memoria</h2>
+        <p>Encuentra las parejas musicales</p>
+    </a>
+    
+    <a href="{{ '/ordenar' | relative_url }}" class="activity-card">
+        <div class="card-icon">🔠</div>
+        <h2>Ordenar melodías</h2>
+        <p>Reconstruye fragmentos musicales</p>
+    </a>
 </div>
