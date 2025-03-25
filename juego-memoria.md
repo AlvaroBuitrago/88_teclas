@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Lectura a Primera Vista
+title: Juego de memoria
 ---
 
-# Juego de lectura a primera vista  <!-- Espacio después del # -->
+# Lectura al piano
 
-## Contenido de lectura a primera vista
+## Actividades de memoria
 
-Aquí van tus ejercicios...
+Aquí van tus ejercicios de memoria...
 
 {% include back-button.html %}
