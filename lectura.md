@@ -1,9 +1,9 @@
-#Lectura al piano
-
 ---
 layout: default
 title: Lectura a Primera Vista
 ---
+
+# Lectura al piano
 
 ## Contenido de lectura a primera vista
 
