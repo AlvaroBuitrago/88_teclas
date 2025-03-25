@@ -1,5 +1,6 @@
 title: Actividades sobre el piano
 description: Directorio de actividades sobre el piano
-theme: minima
-plugins:
-  - jekyll-feed
+theme: jekyll-theme-cayman
+# O prueba con:
+# theme: jekyll-theme-modernist
+# theme: jekyll-theme-tactile
