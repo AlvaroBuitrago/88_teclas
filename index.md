@@ -9,9 +9,9 @@ subtitle: 88 Teclas de Aprendizaje
     <p class="subtitle">{{ page.subtitle }}</p>
 </div>
 <div class="">
-<a href="https://sites.google.com/view/88-teclas/" class="back-button">
+<button> <a href="https://sites.google.com/view/88-teclas/" class="back-button">
   ← VOLVER A INICIO
-</a>
+</a></button>
 
 </div>
 
