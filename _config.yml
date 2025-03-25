@@ -1,0 +1,5 @@
+title: Actividades Musicales
+description: Directorio de actividades para práctica musical
+theme: minima
+plugins:
+  - jekyll-feed
