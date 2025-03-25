@@ -13,6 +13,10 @@ header {
     margin-bottom: 30px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .activity-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
