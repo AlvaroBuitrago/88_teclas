@@ -23,7 +23,7 @@ title: Memoria de pez - Piano
   <div class="partitura-actual">
     <img 
       id="partitura-img" 
-      src="img/memoria1.png" 
+      src="img/memoria/memoria1.png" 
       alt="Partitura" 
       class="partitura-img"
       onclick="toggleZoom()"
@@ -104,7 +104,7 @@ title: Memoria de pez - Piano
   // Cargar partitura seleccionada
   function cargarPartitura(num) {
     partituraActual = parseInt(num);
-    document.getElementById('partitura-img').src = `img/memoria${partituraActual}.png`;
+    document.getElementById('partitura-img').src = `img/memoria/memoria${partituraActual}.png`;
     document.getElementById('contador').textContent = `${partituraActual} / ${totalPartituras}`;
     document.getElementById('partitura-select').value = partituraActual;
   }
