@@ -114,3 +114,16 @@ document.getElementById("siguiente-partitura").addEventListener("click", () => {
 
 // Mostrar la primera partitura al cargar la página
 document.getElementById("partitura").textContent = partituras[partituraActual];
+
+
+  document.querySelectorAll('.partitura-img').forEach(img => {
+    img.addEventListener('click', () => {
+      img.classList.toggle('zoom');
+    });
+  });
+</script>
+<style>
+  .zoom {
+    transform: scale(1.5);
+    cursor: zoom-out;
+  }
