@@ -33,13 +33,7 @@ subtitle: 88 Teclas de Aprendizaje
         <h2>Trivial sobre el piano</h2>
         <p>Pon a prueba tus conocimientos</p>
     </a>
-    
-    <a href="{{ '/juego-memoria' | relative_url }}" class="activity-card">
-        <div class="card-icon">🎵</div>
-        <h2>Juego de memoria</h2>
-        <p>Encuentra las parejas musicales</p>
-    </a>
-    
+       
     <a href="{{ '/ordenar' | relative_url }}" class="activity-card">
         <div class="card-icon">🔠</div>
         <h2>Ordenar melodías</h2>
